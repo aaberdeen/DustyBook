@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DustyBook.exe" version="0.1.0.20" publicKeyToken="e360b42b4764f356" language="en" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DustyBook" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DustyBook.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DustyBook.exe" size="77824">
+      <assemblyIdentity name="DustyBook" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7UPutJSSlGkqiWBPCDPQ4kFOA30=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="438272">
+      <assemblyIdentity name="MySql.Data" version="6.7.4.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>fQzv7UK7JdyYPYs8iwbmzVS4mZc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DustyBook.exe.config" size="167">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4RnS12hQBk60yafGQFP+/DKgMKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sample.xml" size="339709" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DAjvlNQbeEi6uX0cp6FbWgqcTy8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DDDES\andy" issuerKeyHash="32230af6c54e6942643ac999cc464dee972069f1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Dvk5as068UgtewzwX9/v6WOKqCVZH6bXdppRrCLASeE=</DigestValue></Reference></SignedInfo><SignatureValue>dpAG5IyRSnyf24OY3eS/K6GWcHJFw/VTTK8KzqcT4qbLn3F0dl+csq4OW3eHDG2/okJN68ZM5g3VU3xd16mHHdRfOsQwqXaWfafu+ncT5YoLDI3HvgW4kaMZ6yJWC/5HGMS5eaWFHthTFA2OD9EquqWKT15pVesEnmj60HuYjkA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wm6heqz5+BJf2nN7FQ66ColZBI/bo426ecCikXoQi8BQzNCR5/zUgpffXVj0H6A26QWhdnlb5Sxhd/Xig0xXDp1SfgvoZU6yU5i62U4js3bilUdBRRK1J0Sr3KrivigI/cgGa/9OGwbZ+4ycH801TeEgde3O5Mjt8oriDGSiXzc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e149c022ac519a76d7a61f5925a88a63e9efdf5ff00c7b2d48f13acd6a39f90e" Description="" Url=""><as:assemblyIdentity name="DustyBook.exe" version="0.1.0.20" publicKeyToken="e360b42b4764f356" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DDDES\andy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+4gRQB2/DIsX8+0FnqMNCcRA/d46e92FVTLDnXV2O8M=</DigestValue></Reference></SignedInfo><SignatureValue>h+EGyFaLiUCTaeT9OP4jO2aqQmluuA1CM0e7+Um3w2Ef2bKmtLKRMGWxIOPJPBazjV6QJorSs1YwAJDXpGklgvTEFPNx3ifzXrWHyzEoZUY8MJ6C8XsD0yxKHFcoIBt/8BFOUUhwJVJK0BNtaqlY1Dw1TYtYbbbLwB4Wy20e+es=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wm6heqz5+BJf2nN7FQ66ColZBI/bo426ecCikXoQi8BQzNCR5/zUgpffXVj0H6A26QWhdnlb5Sxhd/Xig0xXDp1SfgvoZU6yU5i62U4js3bilUdBRRK1J0Sr3KrivigI/cgGa/9OGwbZ+4ycH801TeEgde3O5Mjt8oriDGSiXzc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQL2L4nC1+0qFDlyudYXl7DjANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQARABEAEQARQBTAFwAYQBuAGQAeTAeFw0xMzA4MjAwNzU1NDVaFw0xNDA4MjAxMzU1NDVaMB8xHTAbBgNVBAMeFABEAEQARABFAFMAXABhAG4AZAB5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCbqF6rPn4El/ac3sVDroKiVkEj9ujjbp5wKKRehCLwFDM0JHn/NSCl99dWPQfoDbpBaF2eVvlLGF39eKDTFcOnVJ+C+hlTrJTmLrZTiOzduKVR0FFErUnRKvcquK+KAj9yAZr/04bBtn7jJwfzTVN4SB17c7kyO3yiuIMZKJfNwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHy/SvoW5Au/CIBOJqpIqJ95taQ9v8yKYMkodOTtlZ54PxGTGtSV+9pGlsoQJzojn6kehhXFMz3DdgsV0Wlq3h0ZrVPY338pS8VpF3KitSVqwITIYnEO61fJR+p3scCJBSwaWHmBAYCDkl8qj2ofUX246wyVb2XeV/cIIvVvVtnA</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
